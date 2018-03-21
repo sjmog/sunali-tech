@@ -1,0 +1,22 @@
+{
+  "name": "sunali",
+  "version": "0.0.1",
+  "description": "A simple tech test solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjmog/sunali-tech.git"
+  },
+  "author": "s_morgan@me.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjmog/sunali-tech/issues"
+  },
+  "homepage": "https://github.com/sjmog/sunali-tech#readme",
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
+}
