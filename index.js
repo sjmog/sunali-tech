@@ -1,7 +1,12 @@
 const http = require('http');
+const fs   = require('fs');
 
 const serveData = (request, response) => {
-  console.log('serving data');
+  fs.readFile('data/data.json', function(err, data) {
+    response.writeHead(200, {'Content-Type': 'json'});
+    response.write(data);
+    response.end();
+  });
 };
 
 const server = http.createServer(serveData);
